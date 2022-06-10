@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/7688/7688488.png">
+    <title>რიცხვის გამოცნობის თამაში</title>
+</head>
+<body>
+    <div id="container">
+        <div id="foreword">
+            <h2>რიცხვის გამოცნობის თამაში</h2>
+            <p>აპლიკაციამ ჩაიფიქრა რიცხვი 1-დან 10-ის ჩათვლით. შენ კი ის უნდა გამოიცნო...</p>
+        </div>
+        
+        <label for="userGuess" id="userGuessLabel">რა რიცხვია ჩაფიქრებული ?</label><br>
+        <input type="number" id="userGuess" max="10" min="1" style="width: 120px;" autofocus required><br>
+        <div id="displayCorrectAnswer">ვნახოთ, ვნახოთ...</div>
+        <button type="button" id="submitBtn">წავიდა</button><br>
+        <span id="numberOfTriesLeft">დარჩენილი მცდელობების რაოდენობა: 3</span>
+        <div id="displayRestartBtn"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
